@@ -1,0 +1,25 @@
+# Exported from Render on 2025-05-18T10:19:19Z
+services:
+- type: web
+  name: delta-student
+  runtime: node
+  repo: https://github.com/Sandeepyadav1922/delta-student
+  plan: free
+  envVars:
+  - key: SECRET
+    sync: false
+  - key: ATLASDB_URL
+    sync: false
+  - key: MAP_TOKEN
+    sync: false
+  - key: CLOUD_API_SECRET
+    sync: false
+  - key: CLOUD_API_KEY
+    sync: false
+  - key: CLOUD_NAME
+    sync: false
+  region: oregon
+  buildCommand: npm install
+  startCommand: node app.js
+  autoDeployTrigger: "off"
+version: "1"
