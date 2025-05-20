@@ -9,9 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "sandeep yadav",
   "license": "ISC",
-  "description": "",
+  "description": "This is our major project - wanderlust",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.16.1",
     "cloudinary": "^2.6.0",
@@ -31,5 +31,13 @@
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandeepyadav1922/delta-student.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sandeepyadav1922/delta-student/issues"
+  },
+  "homepage": "https://github.com/Sandeepyadav1922/delta-student#readme"
 }
