@@ -161,7 +161,7 @@ font-size: 1rem;
 
 #filters {
             display: flex;
-            flex-wrap: wrap;
+            overflow: auto;
             align-items: center;
         }
         .filter {
@@ -189,44 +189,16 @@ font-size: 1rem;
             border-radius: 1rem;
             height: 3.25rem;
             padding: 1rem;
-            margin-left: 2rem;
             display: flex;
             align-items: center;
         }
 
-    #smart {
+        .toggle-inner {
+            width: 15rem;
             display: flex;
-            flex-wrap: wrap;
-            align-items: center;
+            justify-content: center;
         }
 
-        @media(max-width: 1400px) {
-        #smart {
-            display: none;
+        .form-check-label {
+            margin-right: 10px;
         }
-            }
-
-        @media(max-width: 500px) {
-            .tax-toggle {
-            border: 1px solid black;
-            border-radius: 1rem;
-            height: 3rem;
-            padding: 0.2rem;
-            margin-left: 0rem;
-            display: flex;
-            align-items: center;
-        }
-        #filters {
-            margin-right: 0rem;
-        }
-    }
-
-    @media(max-width: 400px) {
-        .filter {
-            display: none;
-        }
-        .tax-toggle {
-            margin-top: 1rem;
-            margin-left: 3rem;
-        }
-    }
